@@ -94,7 +94,7 @@ const editNoteByHandler = (request, h) => {
 
     const response = h.response({
       status: "success",
-      message: "Catatan  berhasil diperbarui",
+      message: "Catatan berhasil diperbarui",
     });
     response.code(200);
     return response;
@@ -119,7 +119,7 @@ const deleteByIdHandler = (request, h) => {
 
     const response = h.response({
       status: "success",
-      message: "Catatan  berhasil dihapus",
+      message: "Catatan berhasil dihapus",
     });
     response.code(200);
     return response;
